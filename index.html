@@ -1,81 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
 
     <!-- Additional CSS -->
     <link rel="stylesheet" href="css/styles.css" />
-    
+
     <title>Improv-Theory</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-9">
-                    <h1>Improv-Theory</h1>
-                    <h5>Knowledge is Power!</h5>
-                </div>
-                <div class="col-3">
-                    <a href="https://www.youtube.com/" class="btn btn-danger btn-lg text-nowrap" role="button" target="_blank">Improv-Theory on YouTube!</a>
-                </div>
-            </div>
-        </div>        
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <h1>Improv-Theory</h1>
+            <h5>Knowledge is Power!</h5>
+          </div>
+          <div class="col-3">
+            <a
+              href="https://www.youtube.com/"
+              class="btn btn-danger btn-lg text-nowrap"
+              role="button"
+              target="_blank"
+              >Improv-Theory on YouTube!</a
+            >
+          </div>
+        </div>
+      </div>
     </header>
 
     <div class="container">
-        <div class="row">
-            <div class="col-8">
-                <div class="card lessonCards">
-                    <h4>Heading 4</h4>
-                    <p>lorem ipsum lorem ipsum</p>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card lessonCards">
-                    <p>Email form</p>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-8">
+          <div class="card cardSpacing">
+            <h4>Why it matters:</h4>
+            <p>
+              This will be a paragraph or so of text explaining the importance
+              of music theory and the impact it can have on one's improvisation
+              and compositions.
+            </p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-4">
-                <div class="card lessonCards">
-                    <h4>Lesson 1 Card</h4>
-                    <p>lesson 1 description text</p>
+        <div class="col-4">
+          <div class="card cardSpacing">
+            <form>
+              <div class="form-group row text-center">
+                <label for="email" class="col col-form-label"
+                  >Sign up to recieve free pdf</label
+                >
+              </div>
+              <div class="form-group row">
+                <div class="col">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="yourEmail@example.com"
+                  />
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="card lessonCards">
-                    <h4>Lesson 2 Card</h4>
-                    <p>lesson 2 description text</p>
+              </div>
+              <div class="form-group row">
+                <div class="col text-center">
+                  <p>Would you like to subscribe to our weekly newsletter?</p>
+                  <div class="form-check form-check-inline">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      id="subscribeYes"
+                      name="subscribeRadios"
+                      value="yes"
+                    />
+                    <label for="subscribeYes" class="form-check-label"
+                      >Yes</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      id="subscribeNo"
+                      name="subscribeRadios"
+                      value="no"
+                    />
+                    <label for="subscribeNo" class="form-check-label">No</label>
+                  </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="card lessonCards">
-                    <h4>Lesson 3 Card</h4>
-                    <p>lesson 3 description text</p>
+              </div>
+              <div class="form-group row">
+                <div class="col text-center">
+                  <button type="submit">Submit</button>
                 </div>
-            </div>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="card mx-auto lessonCards" style="width: 300px;">
-                <a href="#" class="btn btn-lg ">Take the music theory quiz!</a>
-        </div>    
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card cardSpacing">
+            <h4>Lesson 1 Card</h4>
+            <p>lesson 1 description text</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card cardSpacing">
+            <h4>Lesson 2 Card</h4>
+            <p>lesson 2 description text</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card cardSpacing">
+            <h4>Lesson 3 Card</h4>
+            <p>lesson 3 description text</p>
+          </div>
+        </div>
+      </div>
+      <div class="card mx-auto cardSpacing" style="width: 300px">
+        <a href="#" class="btn btn-lg">Take the music theory quiz!</a>
+      </div>
     </div>
 
-    <footer>
-
-    </footer>
+    <footer></footer>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</body>    
+  </body>
+</html>
