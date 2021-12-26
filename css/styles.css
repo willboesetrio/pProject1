@@ -1,4 +1,14 @@
+.jumbotron {
+    margin: 0;
+}
 .cardSpacing {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.navbar {
+    background-color: darkred;
+}
+.btn-youtube {
+    background-color: darkred;
+    color: white;
 }
