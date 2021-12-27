@@ -11,6 +11,9 @@
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
 
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
     <!-- Additional CSS -->
     <link rel="stylesheet" href="css/styles.css" />
 
@@ -71,27 +74,30 @@
       <div class="row">
         <div class="col-8">
           <div class="card cardSpacing">
-            <h4>Why it matters:</h4>
-            <p>
-              This will be a paragraph or so of text explaining the importance
-              of music theory and the impact it can have on one's improvisation
-              and compositions.
-            </p>
+            <h4 class="card-header">Why it matters:</h4>
+            <div class="card-body">
+              <p>
+                This will be a paragraph or so of text explaining the importance
+                of music theory and the impact it can have on one's improvisation
+                and compositions.
+              </p>
+            </div>  
           </div>
         </div>
         <div class="col-4">
-          <div class="card cardSpacing">
+          <div class="card cardSpacing border-dark">
             <form>
               <div class="form-group row text-center">
                 <label for="email" class="col col-form-label"
-                  >Sign up to recieve free pdf</label
+                  ><h5 class="border-bottom border-dark p-2">Sign up to recieve a free pdf!</h5>
+                  <p class= "text-justify mx-3">Enter your email to download a free pdf containing notated examples of improvised passages from the masters of the past and today:</p></label
                 >
               </div>
               <div class="form-group row">
                 <div class="col">
                   <input
                     type="email"
-                    class="form-control"
+                    class="form-control border-dark"
                     id="email"
                     name="email"
                     placeholder="yourEmail@example.com"
@@ -137,20 +143,26 @@
       <div class="row">
         <div class="col-4">
           <div class="card cardSpacing">
-            <h4>Lesson 1 Card</h4>
-            <p>lesson 1 description text</p>
+            <h4 class="card-header">Lesson 1 Card</h4>
+            <div class="card-body">
+              <p>lesson 1 description text</p>
+            </div>  
           </div>
         </div>
         <div class="col-4">
           <div class="card cardSpacing">
-            <h4>Lesson 2 Card</h4>
-            <p>lesson 2 description text</p>
+            <h4 class="card-header">Lesson 2 Card</h4>
+            <div class="card-body">
+              <p>lesson 2 description text</p>
+            </div>  
           </div>
         </div>
         <div class="col-4">
           <div class="card cardSpacing">
-            <h4>Lesson 3 Card</h4>
-            <p>lesson 3 description text</p>
+            <h4 class="card-header">Lesson 3 Card</h4>
+            <div class="card-body">
+              <p>lesson 3 description text</p>
+            </div>  
           </div>
         </div>
       </div>
@@ -159,7 +171,35 @@
       </div>
     </div>
 
-    <footer></footer>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h5>Social</h5>
+            <a
+              class="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="http://facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-youtube"
+              href="http://youtube.com/"
+              ><i class="fa fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>

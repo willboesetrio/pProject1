@@ -1,9 +1,11 @@
 .jumbotron {
     margin: 0;
+    background-color: goldenrod;
 }
 .cardSpacing {
     margin-top: 50px;
     margin-bottom: 50px;
+    border: 5px solid, black;
 }
 .navbar {
     background-color: darkred;
@@ -11,4 +13,7 @@
 .btn-youtube {
     background-color: darkred;
     color: white;
+}
+.site-footer {
+    background-color: goldenrod;
 }
