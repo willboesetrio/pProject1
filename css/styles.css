@@ -6,6 +6,9 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.border-gr {
+    border: solid 3px goldenrod;
+}
 .navbar {
     background-color: darkred;
 }
@@ -13,6 +16,28 @@
     background-color: darkred;
     color: white;
 }
+.btn-quiz {
+    background-color: darkred;
+    color: white;
+    padding: 1em;
+}
 .site-footer {
     background-color: goldenrod;
+}
+.border-dr {
+    border: solid 3px darkred;
+}
+.backgrnd-gr {
+    background-color: goldenrod;
+}
+.jz-portrait {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: .5em;
+    margin: .5em;
+    border:solid black 1px;
+    border-radius: 10px;
 }
