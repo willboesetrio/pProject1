@@ -41,3 +41,28 @@
     border:solid black 1px;
     border-radius: 10px;
 }
+.img-opaque {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .1;
+  margin-top: -15px;
+}
+.cartBtn {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+}
+.topRow {
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px
+}
+.bottomRow {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 50px
+}
